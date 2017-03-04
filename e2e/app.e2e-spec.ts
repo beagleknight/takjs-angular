@@ -1,10 +1,10 @@
-import { AngularTakPage } from './app.po';
+import { TakJSAngularPage } from './app.po';
 
-describe('angular-tak App', () => {
-  let page: AngularTakPage;
+describe('takjs-angular App', () => {
+  let page: TakJSAngularPage;
 
   beforeEach(() => {
-    page = new AngularTakPage();
+    page = new TakJSAngularPage();
   });
 
   it('should display message saying app works', () => {

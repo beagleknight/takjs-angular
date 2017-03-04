@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class AngularTakPage {
+export class TakJSAngularPage {
   navigateTo() {
     return browser.get('/');
   }
