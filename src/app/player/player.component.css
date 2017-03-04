@@ -1,0 +1,8 @@
+:host.active .player {
+  background: #438589;
+}
+.player {
+  height: 50px;
+  border: 1px solid #000;
+  margin: 5px;
+}

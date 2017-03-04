@@ -1,0 +1,7 @@
+<table class="board">
+  <tr *ngFor="let i of board.size | fill">
+    <td *ngFor="let j of board.size | fill">
+      <app-cell [row]="i" [col]="j" [stack]="board.cells[i][j]"></app-cell>
+    </td>
+  </tr>
+</table>

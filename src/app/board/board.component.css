@@ -1,0 +1,24 @@
+:host, table {
+  text-align: center;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+  background: #eee;
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+  background: #999;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+  background: #999;
+}
+
+tr:nth-child(even) td:nth-child(even) {
+  background: #eee;
+}
